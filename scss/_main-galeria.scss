@@ -1,0 +1,23 @@
+.main {
+	.galeria {
+		overflow: hidden;
+
+		.foto {
+			width: 25%;
+			float: left;
+
+			img {
+				vertical-align: top;
+				width: 100%;
+				opacity: .7;
+
+				&:hover {
+					opacity: 1;
+					-webkit-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					transition: all .3s ease;
+				}
+			}
+		}
+	}
+}
